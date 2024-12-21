@@ -1,6 +1,6 @@
 const oa_name = "xukaiyyds";
 const oa_description = "分享好用的技术知识";
-const web_beian = "京ICP备19051325号-2";
+const web_beian = "萌ICP备20220462号";
 
 function replaceText(elementId, newText) {
   var element = document.getElementById(elementId);
