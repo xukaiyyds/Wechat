@@ -1,0 +1,54 @@
+.wechatOA-head {
+  background-image: url(./img/avatar.png);
+  border-radius: 0;
+}
+
+.wechat-need-reply {
+  background: var(--card-bg);
+  max-width: 328px;
+  max-height: 569px;
+  border-radius: 16px;
+  padding: 24px 36px 20px 36px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+img.wechat-need-reply-copybtn-img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.wechat-need-reply-copybtn {
+  display: flex;
+  padding: 12px 12px 12px 20px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 12px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wechat-need-reply-copybtn:hover {
+  opacity: 0.8;
+}
+
+span#wechat-need-reply-text {
+  line-height: 1;
+  margin: auto;
+}
+
+span.wechat-need-reply-front {
+  font-size: 14px;
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+span.wechat-need-reply-back {
+  font-size: 14px;
+  color: var(--font-color);
+}
