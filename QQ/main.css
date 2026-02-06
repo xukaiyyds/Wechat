@@ -1,0 +1,55 @@
+:root {
+  --background: #f6f7f8;
+  --card-bg: #fff;
+  --second-bg: #F7F7F7;
+  --font-color: #000;
+  --green: #1ba059;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1e2020;
+    --card-bg: #0f0f0f;
+    --second-bg: #303134;
+    --font-color: #fff;
+    --green: #25d678;
+  }
+}
+
+body {
+  background: var(--background);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wechatOA {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.wechat {
+  margin: auto;
+}
+
+.wechat-card {
+  background: var(--card-bg);
+  max-width: 428px;
+  max-height: 569px;
+  border-radius: 16px;
+  padding: 24px 36px 20px 36px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.qrcode {
+  width: 256px;
+  display: flex;
+  border-radius: 12px;
+}
